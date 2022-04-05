@@ -1,4 +1,15 @@
-h1 {
-  color: #33BFDB;
+#index {
+  background-color: #33BFDB;
+  margin: 0;
+}
+
+#index .index-container {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#index .index_title {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

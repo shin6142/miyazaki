@@ -1,0 +1,12 @@
+#index {
+    background-color: $c_blue;
+    margin: 0;
+    .index-container {
+        max-width: 500px;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+    .index_title {
+        color: $c_white;
+    }
+}
