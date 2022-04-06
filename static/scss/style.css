@@ -2,12 +2,51 @@
   background-color: #33BFDB;
   margin: 0;
 }
+
 #index .index-container {
   max-width: 500px;
   margin: 0 auto;
   border: 1px solid black;
+  text-align: center;
 }
+
 #index .index_title {
   color: #fff;
+}
+
+#index .card {
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#index .card_cover {
+  width: 100%;
+}
+
+#index .card-message {
+  color: #4d4c4b;
+  padding: 10px;
+}
+
+#index .card-message_title {
+  text-align: left;
+}
+
+#index .card-message_text {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+#index .card-message_date {
+  text-align: right;
+}
+
+#index .card-message_name {
+  text-align: right;
+}
+
+h1 {
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */

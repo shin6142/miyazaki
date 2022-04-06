@@ -5,8 +5,34 @@
         max-width: 500px;
         margin: 0 auto;
         border: 1px solid black;
+        text-align: center;
     }
     .index_title {
         color: $c_white;
+    }
+    .card {
+        background-color: $c_white;
+        width: 90%;
+        margin: 0 auto;
+        &_cover {
+            width: 100%;
+        }
+        &-message {
+            color: $c_black;
+            padding: 10px;
+            &_title {
+                text-align: left;
+            }
+            &_text {
+                text-align: justify;
+                text-justify: inter-ideograph;
+            }
+            &_date {
+                text-align: right;
+            }
+            &_name {
+                text-align: right;
+            }
+        }
     }
 }
