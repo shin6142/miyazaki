@@ -19,7 +19,7 @@
 #index .card {
   background-color: #fff;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
   border-radius: 20px;
 }
 
@@ -36,6 +36,7 @@
 #index .card-message_title {
   text-align: left;
   font-weight: bold;
+  font-size: 18px;
 }
 
 #index .card-message .dashed-note {
@@ -54,16 +55,19 @@
 #index .card-message_text {
   text-align: justify;
   text-justify: inter-ideograph;
+  font-size: 14px;
 }
 
 #index .card-message_date {
   text-align: right;
   margin: 0;
+  font-size: 14px;
 }
 
 #index .card-message_name {
   text-align: right;
   margin: 0;
+  font-size: 14px;
 }
 
 h1 {
