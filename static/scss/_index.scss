@@ -17,17 +17,11 @@
         width: 94%;
         margin: 0 auto 60px auto;
         border-radius: 20px;
-        overflow: hidden;
         box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
         &_cover {
             width: 100%;
             height: 100%;
             border-radius: 20px 20px 0px 0px;
-            transition-duration: 0.3s;
-        }
-        &_cover:hover {
-            transform: scale(1.1);
-            transition-duration: 0.3s;
         }
         &-message {
             color: $c_black;
@@ -40,11 +34,10 @@
             .dashed-note {
                 background-color: #fff;
                 /* 背景色 */
-                background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #fff 50%, #fff 100%), /* 点線1の色 */
-                linear-gradient(180deg, #ccc 1px, transparent 1px);
+                background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #fff 50%, #fff 100%),
+                    /* 点線1の色 */ linear-gradient(180deg, #ccc 1px, transparent 1px);
                 /* 点線2の色と太さ */
-                background-size: 8px 100%, /* 点線1のサイズ */
-                100% 2.5em;
+                background-size: 8px 100%, /* 点線1のサイズ */ 100% 2.5em;
                 /* 点線2のサイズ */
                 line-height: 2.5em;
                 /* 文字の高さ */
