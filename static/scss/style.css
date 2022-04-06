@@ -74,5 +74,8 @@
 #index .index-end {
   color: #fff;
   margin-bottom: 50px;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
