@@ -12,7 +12,10 @@
 </head>
 
 <body id="index">
-    <div class="index-container">
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>
+    <div class="index-container gallery">
         <h1 class="index_title">宮崎オフィスのみなさまへ</h1>
         <div class="card">
             <img class="card_cover" src="image/group.jpeg" alt="card-cover" width="470px" height="336px">
@@ -166,7 +169,15 @@
             </h1>
         </div>
     </div>
-
+    <script>
+        window.onload = function() {
+            const spinner = document.getElementById('loading');
+            setTimeout(() => {
+                spinner.classList.add('loaded');
+            }, 5000);
+            // Add .loaded to .loading
+        }
+    </script>
 </body>
 
 </html>
