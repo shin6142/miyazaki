@@ -1,6 +1,8 @@
+@charset "UTF-8";
 #index {
   background-color: #33BFDB;
   margin: 0;
+  font-family: sans-serif;
 }
 
 #index .index-container {
@@ -18,19 +20,35 @@
   background-color: #fff;
   width: 90%;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
 #index .card_cover {
   width: 100%;
+  border-radius: 20px 20px 0px 0px;
 }
 
 #index .card-message {
   color: #4d4c4b;
-  padding: 10px;
+  padding: 20px;
 }
 
 #index .card-message_title {
   text-align: left;
+  font-weight: bold;
+}
+
+#index .card-message .dashed-note {
+  background-color: #fff;
+  /* 背景色 */
+  background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #fff 50%, #fff 100%), linear-gradient(180deg, #ccc 1px, transparent 1px);
+  /* 点線2の色と太さ */
+  background-size: 8px 100%, 100% 2.5em;
+  /* 点線2のサイズ */
+  line-height: 2.5em;
+  /* 文字の高さ */
+  padding-bottom: 1px;
+  /* 最終行の下にも罫線を引く */
 }
 
 #index .card-message_text {
@@ -40,10 +58,12 @@
 
 #index .card-message_date {
   text-align: right;
+  margin: 0;
 }
 
 #index .card-message_name {
   text-align: right;
+  margin: 0;
 }
 
 h1 {
