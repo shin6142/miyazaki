@@ -22,11 +22,21 @@
   width: 94%;
   margin: 0 auto 60px auto;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 #index .card_cover {
   width: 100%;
   border-radius: 20px 20px 0px 0px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+#index .card_cover:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 #index .card-message {
