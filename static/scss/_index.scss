@@ -10,6 +10,7 @@
     .index_title {
         color: $c_white;
         margin-top: 50px;
+        font-size: 30px;
     }
     .card {
         background-color: $c_white;
@@ -31,10 +32,11 @@
             .dashed-note {
                 background-color: #fff;
                 /* 背景色 */
-                background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #fff 50%, #fff 100%),
-                    /* 点線1の色 */ linear-gradient(180deg, #ccc 1px, transparent 1px);
+                background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #fff 50%, #fff 100%), /* 点線1の色 */
+                linear-gradient(180deg, #ccc 1px, transparent 1px);
                 /* 点線2の色と太さ */
-                background-size: 8px 100%, /* 点線1のサイズ */ 100% 2.5em;
+                background-size: 8px 100%, /* 点線1のサイズ */
+                100% 2.5em;
                 /* 点線2のサイズ */
                 line-height: 2.5em;
                 /* 文字の高さ */
