@@ -8,17 +8,17 @@
 #index .index-container {
   max-width: 500px;
   margin: 0 auto;
-  border: 1px solid black;
   text-align: center;
 }
 
 #index .index_title {
   color: #fff;
+  margin-top: 50px;
 }
 
 #index .card {
   background-color: #fff;
-  width: 90%;
+  width: 94%;
   margin: 0 auto 60px auto;
   border-radius: 20px;
 }
@@ -70,7 +70,8 @@
   font-size: 14px;
 }
 
-h1 {
-  color: blue;
+#index .index-end {
+  color: #fff;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */
